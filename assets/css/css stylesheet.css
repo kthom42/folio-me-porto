@@ -89,3 +89,30 @@
     
 
 }
+
+@media (max-width:539px){
+    .max-width{
+        padding: 0 50px;
+    
+}
+
+.navbar .directory{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: black;
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.navbar .directory li{
+    display: block;
+}
+
+.navbar .directory li a{
+    display: inline-block;
+    margin: 20px;
+    font-size: 25px;
+}
